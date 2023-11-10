@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="text_size">16sp</dimen>
+    <dimen name="title_text_size_app_bar">18sp</dimen>
+    <dimen name="margin">16dp</dimen>
+    <dimen name="size_image_view_list">50dp</dimen>
+    <dimen name="size_button_refresh">35dp</dimen>
+    <dimen name="size_item_list">100dp</dimen>
+    <dimen name="width_text_item_list">250dp</dimen>
+
+</resources>
