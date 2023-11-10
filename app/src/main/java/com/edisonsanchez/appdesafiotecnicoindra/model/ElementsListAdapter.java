@@ -6,6 +6,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
@@ -54,6 +55,8 @@ public class ElementsListAdapter extends RecyclerView.Adapter<ElementsListAdapte
             title = itemView.findViewById(R.id.title);
             imagen = itemView.findViewById(R.id.imagen);
             itemView.setOnClickListener(v -> {
+                Toast.makeText(context, context.getString(R.string.item_eliminado),
+                        Toast.LENGTH_SHORT).show();
                 elementos.remove(getAdapterPosition());
                 notifyDataSetChanged();
             });

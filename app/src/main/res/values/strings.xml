@@ -1,4 +1,6 @@
 <resources>
     <string name="app_name">App Android</string>
+    <string name="item_eliminado">Elemento eliminado</string>
+    <string name="refresh">Se han cargado de nuevo 15 elementos!</string>
 
 </resources>

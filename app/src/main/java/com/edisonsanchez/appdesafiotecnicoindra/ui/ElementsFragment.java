@@ -13,6 +13,7 @@ import androidx.recyclerview.widget.RecyclerView;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Toast;
 
 import com.edisonsanchez.appdesafiotecnicoindra.R;
 import com.edisonsanchez.appdesafiotecnicoindra.model.ElementsListAdapter;
@@ -56,6 +57,7 @@ public class ElementsFragment extends Fragment {
         recyclerView.setLayoutManager(linearLayoutManager);
         ElementsListAdapter adapter = new ElementsListAdapter(requireContext(),elementos);
         recyclerView.setAdapter(adapter);
+        Toast.makeText(requireContext(), getString(R.string.refresh), Toast.LENGTH_SHORT).show();
     }
 
 }
